@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@layer components{
+  .scrol::-webkit-scrollbar{
+    display: none
+  }
+}
+@tailwind utilities;
+
+
+.emg{
+  @apply w-5 
+}
+
+.btnEmg{
+  @apply flex items-start gap-[10px] p-[10px]  rounded-[50px] cursor-pointer text-[#282828] hover:bg-[#e2e6eb] pr-[10px]
+}
+
+.kad{
+  @apply h-[200px] p-4 bg-[#f0f4f9] rounded-[10px] cursor-pointer hover:bg-[#dfe4ea]
+}
+
+.emage{
+  @apply w-[35px] p-1 absolute bg-white h-[35px] bottom-3 right-3
+}
+
+.pee{
+  @apply text-[#585858] text-[17px]  
+}
+
+.searchImg{
+  @apply w-6 cursor-pointer
+}
+
+.icn{
+  @apply w-4 h-4
+}
+
